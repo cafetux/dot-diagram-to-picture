@@ -1,0 +1,15 @@
+digraph modules {
+A[label="web"];
+A -> B;
+A -> C;
+A -> D;
+B[label="service-orders"];
+C[label="service-invoice"];
+D[label="common"];
+E[label="database"];
+B -> E;
+B -> D;
+C -> E;
+C -> D;
+C ->C
+}

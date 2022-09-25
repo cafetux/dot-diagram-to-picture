@@ -1,0 +1,36 @@
+digraph modules {
+A[label="bootstrap"];
+B[label="liquibase"];
+C[label="services"];
+D[label="cloud-storage-api"];
+E[label="database"];
+F[label="referential-ws"];
+G[label="repository"];
+H[label="structuration"];
+I[label="indicators"];
+J[label="timeline"];
+K[label="credit-flow"];
+L[label="reporting"];
+M[label="common"];
+N[label="core"];
+
+K->M
+C->N
+N->K
+K->G
+G->E
+J->G
+A -> B
+A -> C
+C-> M
+C->H
+N->I
+N->J
+I->J
+N->L
+N-> E
+L->D
+H->F
+D->M
+
+}

@@ -1,0 +1,5 @@
+graph modules {
+    A[label="service-orders"];
+    B;
+    A--B;
+}
