@@ -6,7 +6,7 @@
 
     <groupId>com.livido</groupId>
     <artifactId>dot-image-renderer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
