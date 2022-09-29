@@ -1,4 +1,4 @@
-[![Coverage](.github/badges/jacoco.svg)](https://github.com/cafetux/dot-diagram-to-picture/actions/workflows/build.yml)
+[![Coverage](.github/badges/jacoco.svg)](https://github.com/cafetux/dot-diagram-to-picture/actions/workflows/maven.yml)
 
 # A very basic DOT renderer to PNG for java
 
