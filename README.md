@@ -15,6 +15,6 @@ Usage:
 
 ```java
     Path path = resourceDirectory.resolve("some-dependency-diagram.gv");
-    FlowChart result = parser.parse(path);
-    renderer.render(result,"target/result");
+    FlowChart result = new DotDiagramParser().parse(path);
+    new ImageRenderer().render(result,"target/result");
 ```
