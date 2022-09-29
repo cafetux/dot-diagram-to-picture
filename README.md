@@ -1,3 +1,5 @@
+[![Coverage](.github/badges/jacoco.svg)](https://github.com/cafetux/dot-diagram-to-picture/actions/workflows/build.yml)
+
 # A very basic DOT renderer to PNG for java
 
 DOT: graph description language
