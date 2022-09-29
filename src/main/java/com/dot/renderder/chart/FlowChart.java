@@ -38,17 +38,6 @@ public class FlowChart {
         return chartBox;
     }
 
-    public List<ChartBox> neighborsOf(Symbol symbol) {
-        return this.links.stream()
-                .filter(link -> isContaining(symbol, link))
-                .map(link -> link.getFrom().equals(symbol) ? get(link.getTo()) : get(link.getFrom()))
-                .collect(Collectors.toList());
-    }
-
-    private boolean isContaining(Symbol symbol, BoxLink link) {
-        return link.getFrom().equals(symbol) || link.getTo().equals(symbol);
-    }
-
     public List<BoxLink> links() {
         return new ArrayList<>(links);
     }
